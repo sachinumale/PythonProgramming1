@@ -1,0 +1,13 @@
+f = open("test.txt","w")
+f.write("This is Python\n")
+f.write("This is Java\n")
+f.write("This is DB\n")
+f.write("This is XML\n")
+f.write("This is JSP")
+f.close()
+print("File save successfully in directory")
+
+f=open("test.txt","r")
+data=f.read()
+print(data)
+f.close()
